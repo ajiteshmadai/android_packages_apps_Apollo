@@ -20,7 +20,6 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 
-import com.andrew.apollo.Config;
 import com.andrew.apollo.R;
 import com.andrew.apollo.cache.ImageFetcher;
 import com.andrew.apollo.model.Album;

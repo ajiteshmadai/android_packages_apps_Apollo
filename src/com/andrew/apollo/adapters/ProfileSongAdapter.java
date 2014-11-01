@@ -11,6 +11,8 @@
 
 package com.andrew.apollo.adapters;
 
+import java.util.List;
+
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -28,8 +30,6 @@ import com.andrew.apollo.ui.fragments.profile.LastAddedFragment;
 import com.andrew.apollo.ui.fragments.profile.PlaylistSongFragment;
 import com.andrew.apollo.utils.Lists;
 import com.andrew.apollo.utils.MusicUtils;
-
-import java.util.List;
 
 /**
  * This {@link ArrayAdapter} is used to display the songs for a particular

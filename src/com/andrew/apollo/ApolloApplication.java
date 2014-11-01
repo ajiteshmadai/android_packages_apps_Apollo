@@ -11,14 +11,13 @@
 
 package com.andrew.apollo;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
 import android.app.Application;
 import android.os.StrictMode;
 
 import com.andrew.apollo.cache.ImageCache;
-import com.andrew.apollo.utils.ApolloUtils;
-
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * Used to turn off logging for jaudiotagger and free up memory when

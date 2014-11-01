@@ -11,6 +11,12 @@
 
 package com.andrew.apollo;
 
+import java.io.IOException;
+import java.lang.ref.WeakReference;
+import java.util.LinkedList;
+import java.util.Random;
+import java.util.TreeSet;
+
 import android.annotation.SuppressLint;
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -29,7 +35,6 @@ import android.media.AudioManager;
 import android.media.AudioManager.OnAudioFocusChangeListener;
 import android.media.MediaMetadataRetriever;
 import android.media.MediaPlayer;
-import android.media.MediaPlayer.OnCompletionListener;
 import android.media.RemoteControlClient;
 import android.media.audiofx.AudioEffect;
 import android.net.Uri;
@@ -58,13 +63,6 @@ import com.andrew.apollo.provider.RecentStore;
 import com.andrew.apollo.utils.ApolloUtils;
 import com.andrew.apollo.utils.Lists;
 import com.andrew.apollo.utils.MusicUtils;
-import com.andrew.apollo.utils.PreferenceUtils;
-
-import java.io.IOException;
-import java.lang.ref.WeakReference;
-import java.util.LinkedList;
-import java.util.Random;
-import java.util.TreeSet;
 
 /**
  * A backbround {@link Service} used to keep music playing between activities
